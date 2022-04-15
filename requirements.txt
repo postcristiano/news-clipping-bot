@@ -1,0 +1,10 @@
+beautifulsoup4
+hyperlink==21.0.0
+incremental==21.3.0
+PySocks==1.7.1
+requests==2.26.0
+snscrape
+trio==0.19.0
+trio-websocket==0.9.2
+typing-extensions==4.0.0
+urllib3==1.26.7

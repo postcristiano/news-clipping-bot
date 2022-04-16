@@ -23,7 +23,7 @@ def collect_with_sources():
         for p in source_file:
             profiles = p.strip()
             read_source = open(f"{SETTINGS_PATH}news.txt", "a")
-            read_source.write("📰📰📰 " + p.replace("\n", " ") + " 📰📰📰" +"\n-Harvest atcrons: " + date_time + " -\n")
+            read_source.write("📰📰📰 " + p.replace("\n", " ") + " 📰📰📰" +"\n-Harvest at: " + date_time + " -\n")
             read_source.close()
             extracted_tweets = "/opt/news-clipping-bot/settings/venv/bin/snscrape --format '{content!r}'"+ f" --max-results {max_results} --since {from_date} twitter-user '{profiles}' >> {SETTINGS_PATH}news.txt"
             os.system(extracted_tweets)

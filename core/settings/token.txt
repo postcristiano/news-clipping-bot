@@ -1,2 +1,2 @@
-<token-to-access-the-HTTP-API>
-<bot-username>
+<your-token-to-access-the-HTTP-API>
+<your-bot-username>

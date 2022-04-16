@@ -23,6 +23,7 @@ sudo systemctl enable clippingbot.service
 ### Usage
 - On first use send `start` message to your bot.  
 - Send `news` message to your bot.  
+
 ![Demonstration](./pics/news-clipping-bot-pic2.gif) 
 
 ### License

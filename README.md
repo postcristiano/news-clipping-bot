@@ -13,6 +13,11 @@ For now the use is approved in GNU/Linux Ubuntu.
 
 ![Demonstration](./pics/news-clipping-bot-pic1.gif)  
 
+- Don't forget to keep the server time in your time zone. E.g.:  
+```bash
+sudo timedatectl set-timezone Europe/Lisbon
+```
+
 ### Features
 - To uninstall, run `install.sh`  and select the option to uninstall.  
 - After installed the Bot will run as `clippingbot.service`. You can check:

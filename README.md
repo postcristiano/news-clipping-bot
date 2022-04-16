@@ -1,7 +1,5 @@
 # News Clipping Bot
 
----
-
 ### About
 A bot that collects information of interest and sends it through Telegram Messenger.  
 For now the use is approved in GNU/Linux Ubuntu.  

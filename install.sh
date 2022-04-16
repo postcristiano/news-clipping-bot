@@ -66,7 +66,7 @@ EOF
     systemctl daemon-reload
     systemctl enable clippingbot.service
     systemctl start clippingbot.service
-    timedatectl set-timezone Europe/Lisbon
+    #timedatectl set-timezone Europe/Lisbon
     echo "Don't forget to keep the timezone right. by default is selected: Europe/Lisbon."
     sleep 1
     echo "Bot installation completed."

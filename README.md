@@ -6,7 +6,12 @@ For now the use is approved in GNU/Linux Ubuntu.
 
 ### Install and run
 - You can deploy to a vps or on premise VM.
-- After downloading and unzipping:   
+- Python 3.8 is recommended.
+- Clone repository
+```
+git clone https://github.com/postcristiano/news-clipping-bot && cd news-clipping-bot
+```
+- After download:   
     - Put the API token in `./core/settings/token.txt`  
     - Customize your news sources with twitter usernames in `./core/settings/sources.txt`  
 - Set run perm and run `install.sh` file.

@@ -22,7 +22,7 @@ Menu() {
     echo "--Options--"
     echo 
     echo "1. Install News Clipping Bot and all necessary dependencies"
-    echo "2. Remove News Clipping Bot and unistall installed"
+    echo "2. Uninstall News Clipping Bot and Its files"
     echo "3. Exit"
     echo
     echo -n "Select an option ? "
